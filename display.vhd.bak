@@ -1,0 +1,64 @@
+LIBRARY IEEE;
+library ieee;
+use ieee.std_logic_1164.all;
+entity display is
+generic(n:integer:=250000);
+port(num:in integer range 0 to 3;
+	direction:in integer range 0 to 2;
+	clk:in std_logic;
+	rst:in std_logic;
+	sel1:out std_logic;
+	sel2:out std_logic;
+	y:out std_logic_vector(6 DOWNTO 0));
+end display;
+architecture behav of display is
+	signal cnt:integer range 0 to n;
+	signal clk2:std_logic;
+begin
+	process(clk,rst)
+	begin
+		if(rst='0')then
+			cnt<=0;
+			clk2<='0';
+		elsif rising_edge(clk)then
+			cnt<=cnt+1;
+			if cnt = n then
+				clk2<=not clk2;
+				cnt<=0;
+			end if;
+		end if;
+	end process;
+
+	process(clk2,rst)
+		variable flag:std_logic;
+	begin
+		if rst='0' then
+			sel1<='0';
+			sel2<='1';
+			flag:='0';
+		elsif rising_edge(clk2) then
+			if flag='0' then
+				sel1<='0';
+				sel2<='1';
+				flag:='1';
+				case num is
+					when 0=>y<="1000000";
+					when 1=>y<="1111001";
+					when 2=>y<="0100100";
+					when 3=>y<="0110000";
+					when others=>y<="XXXXXXX";
+				end case;
+			elsif flag='1' then
+				sel1<='1';
+				sel2<='0';
+				flag:='0';
+				case direction is
+					when 0=>y<="1000000"; sel2<='1';
+					when 1=>y<="1111001";
+					when 2=>y<="0100100";
+					when others=>y<="XXXXXXX";
+				end case;
+			end if;
+		end if;
+	end process;
+end behav;

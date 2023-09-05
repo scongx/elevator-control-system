@@ -1,0 +1,131 @@
+Flow report for test
+Wed Mar 08 19:02:24 2023
+Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------------+
+; Flow Summary                                                                       ;
++------------------------------------+-----------------------------------------------+
+; Flow Status                        ; Successful - Wed Mar 08 19:02:24 2023         ;
+; Quartus II 64-Bit Version          ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
+; Revision Name                      ; test                                          ;
+; Top-level Entity Name              ; block1                                        ;
+; Family                             ; Cyclone IV E                                  ;
+; Device                             ; EP4CE10F17C8L                                 ;
+; Timing Models                      ; Preliminary                                   ;
+; Met timing requirements            ; N/A                                           ;
+; Total logic elements               ; 945 / 10,320 ( 9 % )                          ;
+;     Total combinational functions  ; 932 / 10,320 ( 9 % )                          ;
+;     Dedicated logic registers      ; 439 / 10,320 ( 4 % )                          ;
+; Total registers                    ; 439                                           ;
+; Total pins                         ; 31 / 180 ( 17 % )                             ;
+; Total virtual pins                 ; 0                                             ;
+; Total memory bits                  ; 0 / 423,936 ( 0 % )                           ;
+; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                                ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                 ;
++------------------------------------+-----------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/08/2023 19:02:09 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; test                ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                              ;
++------------------------------------+-------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                     ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+-------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 1098567583286.167827332915636             ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT             ; Vhdl                                      ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                ; ModelSim (VHDL)                           ; <None>        ; --          ; --             ;
+; EDA_TIME_SCALE                     ; 1 ps                                      ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                        ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                         ; --            ; --          ; --             ;
+; MISC_FILE                          ; D:/QuartusII9.1/study/20221226/test.dpf   ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/Users/86181/Desktop/20221226/test.dpf  ; --            ; --          ; --             ;
+; MISC_FILE                          ; D:/数字系统设计开发资料/20221226/test.dpf ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.0V                                      ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                  ; --            ; block1      ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                    ; --            ; block1      ; Top            ;
+; TOP_LEVEL_ENTITY                   ; block1                                    ; test          ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                       ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+-------------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4453 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:05     ; 1.0                     ; 4592 MB             ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4497 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4389 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4366 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:12     ; --                      ; --                  ; 00:00:16                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+------------------+---------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++---------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis      ; LAPTOP-NFGHQ2L3  ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                    ; LAPTOP-NFGHQ2L3  ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler                 ; LAPTOP-NFGHQ2L3  ; Windows Vista ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; LAPTOP-NFGHQ2L3  ; Windows Vista ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; LAPTOP-NFGHQ2L3  ; Windows Vista ; 6.2        ; x86_64         ;
++---------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off test -c test
+quartus_fit --read_settings_files=off --write_settings_files=off test -c test
+quartus_asm --read_settings_files=off --write_settings_files=off test -c test
+quartus_sta test -c test
+quartus_eda --read_settings_files=off --write_settings_files=off test -c test
+
+
+
