@@ -1,0 +1,351 @@
+Quartus II 64-Bit
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+12
+1076
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+pressure_sensor
+# storage
+db|test.(2).cnf
+db|test.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+pressure_sensor.vhd
+f52f2c233920dc79c8e41348a486f36
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+pressure_sensor:inst16
+}
+# lmf
+|quartusii9.1|install|quartusii9.1_install_destination_folder|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+frequencies_5us
+# storage
+db|test.(3).cnf
+db|test.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+frequencies_5us.vhd
+8624762bcfa813f1892193743bc4d8
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+n
+125
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+frequencies_5us:inst
+}
+# lmf
+|quartusii9.1|install|quartusii9.1_install_destination_folder|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+motor
+# storage
+db|test.(5).cnf
+db|test.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+motor.vhd
+78447f459acaffdfa58f76998db2ea37
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+n
+1024
+PARAMETER_SIGNED_DEC
+USR
+m
+1026
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+motor:inst1
+}
+# lmf
+|quartusii9.1|install|quartusii9.1_install_destination_folder|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+frequencies_2ms
+# storage
+db|test.(6).cnf
+db|test.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+frequencies_2ms.vhd
+8bb6df77e5ad5ad2d0d3a9a7f7954e1
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+n
+50000
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+frequencies_2ms:inst17
+}
+# lmf
+|quartusii9.1|install|quartusii9.1_install_destination_folder|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+keyboard
+# storage
+db|test.(7).cnf
+db|test.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+keyboard.vhd
+c33e5731751c65758236efa3127e3c78
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+keyboard:inst3
+}
+# lmf
+|quartusii9.1|install|quartusii9.1_install_destination_folder|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+display
+# storage
+db|test.(0).cnf
+db|test.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+display.vhd
+1cd6461959fa46bae9fec1ad1c2ae266
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+n
+250000
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+display:inst5
+}
+# lmf
+|quartusii9.1|install|quartusii9.1_install_destination_folder|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+speaker
+# storage
+db|test.(8).cnf
+db|test.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+speaker.vhd
+8bf1b1d05a867c188cda28f2c56207b
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+k
+100
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+speaker:inst7
+}
+# lmf
+|quartusii9.1|install|quartusii9.1_install_destination_folder|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+block1
+# storage
+db|test.(1).cnf
+db|test.(1).cnf
+# case_insensitive
+# source_file
+block1.bdf
+a48f99f46dc4ec17372ae1767f2062fa
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+logic
+# storage
+db|test.(4).cnf
+db|test.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+logic.vhd
+75171f1c98a9e2ddc073d5f85513326
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+m
+100000000
+PARAMETER_SIGNED_DEC
+USR
+thr
+25000000
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+logic:inst4
+}
+# lmf
+|quartusii9.1|install|quartusii9.1_install_destination_folder|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

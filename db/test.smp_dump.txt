@@ -1,0 +1,45 @@
+
+State Machine - |block1|speaker:inst7|state
+Name state.s2 state.s1 state.s0 
+state.s0 0 0 0 
+state.s1 0 1 1 
+state.s2 1 0 1 
+
+State Machine - |block1|motor:inst1|pre_step
+Name pre_step.s8 pre_step.s7 pre_step.s6 pre_step.s5 pre_step.s4 pre_step.s3 pre_step.s2 pre_step.s1 pre_step.s0 
+pre_step.s0 0 0 0 0 0 0 0 0 0 
+pre_step.s1 0 0 0 0 0 0 0 1 1 
+pre_step.s2 0 0 0 0 0 0 1 0 1 
+pre_step.s3 0 0 0 0 0 1 0 0 1 
+pre_step.s4 0 0 0 0 1 0 0 0 1 
+pre_step.s5 0 0 0 1 0 0 0 0 1 
+pre_step.s6 0 0 1 0 0 0 0 0 1 
+pre_step.s7 0 1 0 0 0 0 0 0 1 
+pre_step.s8 1 0 0 0 0 0 0 0 1 
+
+State Machine - |block1|motor:inst1|direction
+Name direction.d2 direction.d1 direction.d0 
+direction.d0 0 0 0 
+direction.d1 0 1 1 
+direction.d2 1 0 1 
+
+State Machine - |block1|motor:inst1|state
+Name state.c3 state.c2 state.c1 state.c0 
+state.c0 0 0 0 0 
+state.c1 0 0 1 1 
+state.c2 0 1 0 1 
+state.c3 1 0 0 1 
+
+State Machine - |block1|logic:inst4|state
+Name state.s3 state.s2 state.s1 state.s0 
+state.s0 0 0 0 0 
+state.s1 0 0 1 1 
+state.s2 0 1 0 1 
+state.s3 1 0 0 1 
+
+State Machine - |block1|pressure_sensor:inst16|state
+Name state.t3 state.t2 state.t1 state.t0 
+state.t0 0 0 0 0 
+state.t1 0 0 1 1 
+state.t2 0 1 0 1 
+state.t3 1 0 0 1 
